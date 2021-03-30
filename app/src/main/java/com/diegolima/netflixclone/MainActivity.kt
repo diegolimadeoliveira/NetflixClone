@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             abrirTelaLogin()
-        },2000)
+        },1000)
     }
     private fun abrirTelaLogin(){
         val intent = Intent(this, FormLogin::class.java)
